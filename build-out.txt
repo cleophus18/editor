@@ -1,0 +1,12 @@
+
+> frameforge-editor@1.0.0 build
+> tsc -b && vite build
+
+src/App.tsx(13,266): error TS6133: 'evaluateProperty' is declared but its value is never read.
+src/App.tsx(13,606): error TS6133: 'visualClipSettings' is declared but its value is never read.
+src/App.tsx(152,27): error TS6133: 'setSnapSensitivity' is declared but its value is never read.
+src/App.tsx(160,10): error TS6133: 'exportCancelRequested' is declared but its value is never read.
+src/App.tsx(801,85): error TS2304: Cannot find name 'MARKER_COLORS'.
+src/App.tsx(801,132): error TS2304: Cannot find name 'MARKER_COLORS'.
+src/App.tsx(1392,9): error TS6133: 'cancelExport' is declared but its value is never read.
+src/App.tsx(1709,237): error TS2554: Expected 2 arguments, but got 1.
